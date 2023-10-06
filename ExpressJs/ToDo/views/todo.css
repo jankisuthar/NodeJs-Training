@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    margin: 2s0px;
+}
+header ul{
+    background-color: grey;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+}
+header ul li{
+display: inline-block;
+padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}header ul li a:hover{
+    color: black;
+    
+}
+footer{
+    background-color: grey;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.todo{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.todo input{
+    padding: 10px;
+}
+.todo button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
